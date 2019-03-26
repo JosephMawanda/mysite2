@@ -1,0 +1,631 @@
+
+/* selecting all resource elements */
+.resource{
+	float: left;
+	box-sizing: border-box;
+	padding:1px; 
+	width:100%;
+
+
+
+}
+
+
+/* .view your property */
+.my-property{
+	width: 100%;
+	padding: 0;
+	margin: 0
+}
+
+
+
+/* general .resource css */
+.resource .topnav{
+	background-color: black;
+	overflow: hidden;	
+}
+
+ .resource .topnav a{
+	color: #fff;
+	text-decoration: none;
+	margin: 5px;
+	padding: 6px 8px;
+	font-size: 25px;
+
+}
+ .resource .topnav .active{
+background-color: dodgerblue;
+}
+
+.resource .topnav .active:hover{
+	background-color: black;
+	color:white;
+	}
+
+
+.resource .topnav a:hover{
+	color:#fff;
+	background-color:dodgerblue;
+}
+
+
+/* add .new-property */
+
+/*add  new property page */
+.new-property{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	height: auto;
+	/* border: 1px solid #aaa; */
+	background-color: #e9e9e9;
+	opacity: 0.9;
+
+}
+
+
+.new-property .property-data-input .image-upload{
+	width: 10%;
+	padding:0px;
+	height: auto;
+	font-display: block;
+	float: left;
+
+
+}
+
+
+.new-property .property-data-input .image-upload input{
+    width: 80px;
+	height: 95px;
+	color:black;
+	margin: 5px 0 5px 5px;
+	background: #fff;
+	text-align: center;
+	border:2px solid #fff;
+	float: left;
+	margin-top: 10px;
+}
+
+.new-property .property-data-input .image-upload .image-box p{
+	font-size: 12px;
+	line-height: 2;
+	border-radius: 5px;
+
+}
+
+.new-property form .property-data-input .input-fields{
+	height: 90px;
+	padding-right: 0;
+	padding-top: 11px;
+
+
+
+}
+
+.new-property form .property-data-input .input-fields input{
+	padding: 4px 8px;
+	display: block;
+	width: 70%;
+	border-radius: 5px;
+	border: 1px solid #bbb;
+	float: right;
+	margin-right: 20px;
+}
+
+
+/* number of units section begins */
+
+.new-property form .bottom-nav ul{
+background-color:#fff;
+top: 20px;
+height: 50px;
+}
+.new-property form .number-of-units-section{
+	margin-top:60px;
+}
+
+
+.new-property form  .number-of-units-section .bottom-nav ul li .units{
+	height: 40px;
+	width: 150px;
+	border-radius: 5px;
+	padding: 6px 10px;
+
+}
+
+.new-property .property-data-input .number-of-units-section .bottom-nav ul li{
+	display:block;
+	background-color:none;
+	color: black;
+	padding: 10px 10px;
+	float: left;
+	font-size: 18px;
+	margin: 5px;
+	padding: 0px;
+
+
+
+
+}
+
+.new-property .property-data-input .number-of-units-section .bottom-nav a{
+	padding: 10px 10px;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.new-property .property-data-input .number-of-units-section .bottom-nav a:hover{
+	background: dodgerblue;
+	color: #fff;
+}
+
+.new-property form button{
+padding: 6px 10px;
+text-align: center;
+float: right;
+font-size: 15px;
+background-color: #F05283;
+color: white;
+margin-right: 20px;
+margin-top: -68px;
+
+}
+
+.new-property .property-data-input  .botnav .increment{
+	margin-left: -40px;
+}
+
+.new-property .property-data-input .botnav .btn{
+	margin-right:20px;
+}
+
+
+/* add tenant */
+
+/* section general css */
+.add-tenant{
+	width: 500px;
+	height:auto;
+	padding: 0;
+	margin: 0px;
+	overflow: scroll;
+	background-color: #e9e9e9;
+	border: 1px solid #aaa;
+	height: 500px;
+	margin: 0px;
+	opacity: 0.9;
+}
+
+.tenant-card{
+	background-color: #ccc;
+	border-radius: 10px;
+	height:140px;
+	margin: 5px;
+
+}
+
+.add-tenant .botnav-level2{
+	margin-top:-20px;
+}
+
+
+.add-tenant .search-container{
+width: 50%;
+height: 50px;
+float: right;
+margin: 2px 5px;
+}
+
+.add-tenant .search-container input[type=text]{
+	padding: 6px;
+	margin-top: 4px;
+	margin-left: 5px;
+	font-size: 17px;
+	border:none;
+	width: 150px;
+	float:left;
+}
+.add-tenant .search-container button{
+	padding: 6px 10px;
+	background: #ddd;
+	font-size: 17px;
+	border:none;
+	cursor: pointer;
+	width:32px;
+	height: 32px;
+	margin-top: 4px;
+	margin-left: 10px;
+
+
+
+}
+.add-tenant .search-container input{
+	background: #ccc;
+}
+
+.add-tenant .botnav {
+	padding: 6px 10px;
+	text-align: center;
+
+}
+
+.add-tenant .botnav a{
+	padding: 6px 10px;
+	text-decoration: none;
+	color:#fff;
+	font-size: 15px;
+
+}
+.add-tenant .botnav-level2 a{
+	padding: 6px 10px;
+	text-decoration: none;
+	color:#fff;
+	font-size: 15px;
+
+}
+.add-tenant .botnav .moved-in{
+	background-color: dodgerblue;
+	
+}
+.add-tenant .botnav-level2 .moved-in{
+	background-color: dodgerblue;
+	
+}
+
+.add-tenant .botnav .moved-out{
+	background-color: black;
+}
+
+.add-tenant .botnav-level2 .moved-out{
+	background-color: black;
+	margin-left: 10px;
+
+	
+}
+
+.add-tenant .botnav .notice{
+	background-color: #e9ac09;
+}
+
+  
+
+.tenant-card .unit-image-container img{
+	width:70px;
+	height: 80px;
+	border-radius: 10px;
+	text-align: right;
+	margin: 10px;
+}
+
+.tenant-card .tenant-details-input{
+	float:right;
+	margin-top: -130px;
+	font-size: 15px;
+	line-height: 2;
+	margin-right: 100px;
+
+
+}
+
+ 
+.tenant-card .tenant-details-input input{
+	display: inline-block;
+	background-color:none;
+	color: black;
+	 height:25px ;
+	 width:60%;	
+	font-size: 15px;
+	margin: 5px;
+	padding: 0px;
+	border:10px;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+
+}
+
+.tenant-card form input{
+	width:70px;
+	height: 70px;
+	border: 1px solid #aaa;
+	padding: 5px;
+	margin:	10px;
+	float:left;
+	font-size: 10px;
+}
+
+
+
+.personal-contacts .form-row label span{
+    display: inline-block;
+    box-sizing: border-box;
+    color:  #5f5f5f;
+    text-align: right;
+	padding-right: 10px;
+    font-size: 15px;
+}
+	
+
+.personal-contacts{
+ 	rtext-align: left;
+}
+
+.personal-contacts input{
+	display: inline-block;
+	background-color:none;
+	color: black;
+	 height:25px ;
+	 width:60%;	
+	font-size: 15px;
+	margin: 5px;
+	padding: 0px;
+	border:10px;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+}
+
+
+/* view your summary */
+.resource .summary{
+	width: 450px;
+	padding: 0;
+	margin: 0;
+	border: 1px solid #aaa;
+	overflow-y: scroll;
+	background-color: #ddd;
+	height: 550px;
+
+
+}
+.summary .cashflow-header{
+	border-bottom: 1px solid #aaa;
+}
+
+.summary .payments-due{
+	border-bottom: 1px solid #aaa;
+
+}
+
+.summary .payments-past-due{
+	border-bottom: 1px solid #aaa;
+
+}
+
+
+.summary .cashflow-header{
+	border-bottom: 1px solid #aaa;
+
+}
+
+
+.resource .summary ul li{
+	list-style: none;
+	font-size: 19px;
+}
+
+.summary .section-title{
+	font-weight: bolder;
+	font-size: 18px;
+ 
+}
+
+.summary .section-title .month{
+	font-weight: normal;
+	font-size: 13px;
+	text-align: right;
+}
+.summary .cashflow-header .amount{
+	margin-left: 100px;
+	font-size: 18px;
+}
+
+.summary .cashflow-header .amount .type-of-funds{
+	opacity: 0.7;
+	font-size: 16px;
+}
+
+.summary .standing{
+	font-size: 30px;
+	float: right;
+	margin-right: 50px;
+	margin-top: -55px;
+	color: rgb(58, 192, 5);
+	font-weight: bold;
+
+}
+
+.summary .tenant-amount-due .amount-due{
+	color:red;
+}
+
+.summary .tenant-amount-due .due-ugshs{
+	color:red;
+}
+
+.summary .tenant-amount-paid .paid-ugshs{
+	color: rgb(58, 192, 5);
+}
+
+.payments-past-due ul .amount-paid{
+	color:red;
+}
+
+.payments-past-due ul li .past-due-ugshs{
+	color:red;
+}
+
+/* view .my-property */
+.resource .my-property{
+	border: 1px solid #aaa;
+	float: right;
+    width:250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive css for mobile devices */
+@media (max-height:800px){
+	.menu { padding-top:40px; }
+}
+
+
+/* -- Demo ads -- */
+
+@media (max-width: 1200px) {
+	#bsaHolder{ display:none;}
+}
+
+
+
+@media all and (max-width: 800px) {
+
+	.header-user-dropdown .header-limiter h1 {
+		font-size: 24px;
+	}
+
+	.header-user-dropdown .header-limiter nav a {
+		padding: 0 5px;
+	}
+
+	.header-user-dropdown .header-limiter nav {
+		margin-left: 20px;
+	}
+
+}
+
+@media all and (max-width: 600px) {
+
+	.header-user-dropdown .header-limiter nav {
+		display: none;
+	}
+	.menu{
+		top:42px;
+		width: 100%;
+		border:0px;
+		
+	}
+	.menu ul a{
+		width:100%;
+	}
+	/* the .header-user-menu */
+	.header-user-dropdown .header-limiter .header-user-menu{
+		width:80px;
+		height:60px;
+		padding-right: 35px;
+	}
+	
+	.header-user-dropdown .header-user-menu img{
+		top:7px;
+		max-width: 35px;
+		right:32px;
+	}
+
+	.header-user-dropdown .header-limiter span a b{
+       display:none;	
+	}
+
+	.add-tenant .search-container{
+		float:none;
+
+	}
+
+	.add-tenant .search-container input[type=text]{
+		float:none;
+		display: block;
+		text-align: left;
+		width: 100%;
+		margin: 0;
+		padding: 14px;
+
+	}
+
+	.add-tenant input[type=text]{
+		border:1px solid;
+		width:20%;
+	}
+
+
+
+	/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+
+
+}
+}
+
+
+
+/* drag and drop image
+.box__dragndrop,
+.box__uploading,
+.box__success,
+.box__error {
+  display: none;
+}
+
+.box.has-advanced-upload {
+	background-color: white;
+	outline: 2px dashed black;
+	outline-offset: -10px;
+  }
+  .box.has-advanced-upload .box__dragndrop {
+	display: inline;
+  }
+  .box.is-dragover {
+	background-color: grey;
+  }
+
+  .box.is-uploading .box__input {
+	visibility: none;
+  }
+  .box.is-uploading .box__uploading {
+	display: block;
+  }
+
+  .box__button {
+	display: none;
+  }
+  .no-js .box__button {
+	display: block;
+  }*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
